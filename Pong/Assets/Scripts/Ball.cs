@@ -9,7 +9,7 @@ public class Ball : MonoBehaviour
     {
         rigidbody = GetComponent<Rigidbody2D>();
     }
-
+    //başlangıç pozisyonu 0
     public void ResetPosition()
     {
         rigidbody.velocity = Vector2.zero;
